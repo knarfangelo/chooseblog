@@ -1,0 +1,18 @@
+main{
+  max-width: 1000px;
+  margin: auto;
+  min-height: 100vh ;
+  background-color: #000;
+}
+
+header{
+  background-image: url("/panel-principal/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width:800px) {
+  header{
+    padding-top: 60px;
+  }
+}
