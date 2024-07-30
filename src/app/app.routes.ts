@@ -12,6 +12,8 @@ import { DesarrolloWebComponent } from '../components/desarrollo-web/desarrollo-
 import { Articulo1Component } from '../components/desarrollo-web/articulo-1/articulo-1.component';
 import { Articulo2Component } from '../components/desarrollo-web/articulo-2/articulo-2.component';
 import { Articulo3Component } from '../components/desarrollo-web/articulo-3/articulo-3.component';
+import { CreacionContenidoComponent } from '../components/creacion-contenido/creacion-contenido.component';
+import { CreacionContenidoArticulo1Component } from '../components/creacion-contenido/creacion-contenido-articulo-1/creacion-contenido-articulo-1.component';
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
@@ -26,5 +28,7 @@ export const routes: Routes = [
     {  path: 'articulo/social-listening-estar-paso-adelante-competidores', component: SocialListeningEstarPasoAdelanteCompetidoresComponent},
     {  path: 'articulo/desarrollo-web/importancia-del-uso-de-una-pagina-web-en-la-era-digital', component: Articulo1Component },
     {  path: 'articulo/desarrollo-web/importancia-de-la-inteligencia-artificial-en-el-desarrollo-de-paginas-webs-modernas', component: Articulo2Component },
-    {  path: 'articulo/desarrollo-web/maximizando-el-potencial-beneficio-de-un-correcto-seo', component: Articulo3Component }
+    {  path: 'articulo/desarrollo-web/maximizando-el-potencial-beneficio-de-un-correcto-seo', component: Articulo3Component },
+    {  path: 'creacion-contenido', component: CreacionContenidoComponent },
+    {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },
 ];
