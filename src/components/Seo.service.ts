@@ -15,9 +15,10 @@ export class SeoService {
       description: 'Choose Agencia es una agencia de marketing digital que se especializa en la creación de contenido digital, desarrollo web, social listening, regulación de contenido y envíos masivos.',
       image: "",
       slug:"",
+      keywords: "Choose Agencia, marketing digital, contenido digital, desarrollo web, social listening, regulación de contenido, envíos masivos",
       ...config
     }
-    this.meta.updateTag({name:'keywords', content: 'Choose Agencia, marketing digital, contenido digital, desarrollo web, social listening, regulación de contenido, envíos masivos'});
+    this.meta.updateTag({name:'keywords', content: config.keywords});
     this.meta.updateTag({name:'canonical', content: `https://blog.chooseagencia.com/${config.slug}`});
     this.meta.updateTag({ name: 'description', content: config.description });
     this.meta.updateTag({name: 'twitter:card', content: 'summary'});

@@ -68,4 +68,6 @@ export class ElOrigenDeLaLeyDelOlvidoComponent {
       slug: "articulo/el-origen-de-la-ley-del-olvido"  
     });
   }
+
+  
 }

@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { SeoService } from '../../Seo.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-la-importancia-del-contenido-digital-para-tu-marca',
@@ -58,4 +60,20 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './la-importancia-del-contenido-digital-para-tu-marca.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LaImportanciaDelContenidoDigitalParaTuMarcaComponent { }
+export class LaImportanciaDelContenidoDigitalParaTuMarcaComponent {
+
+  constructor(private title:Title, private seo:SeoService){
+
+  }
+  ngOnInit(): void {
+    let t:string = "El Origen De La Ley Del Olvido";
+    this.title.setTitle(t);
+
+    this.seo.generateTags({
+      title: t,
+      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
+      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+    });
+  }
+
+ }

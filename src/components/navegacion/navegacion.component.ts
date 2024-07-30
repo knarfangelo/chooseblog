@@ -20,7 +20,7 @@ import { RouterLink } from '@angular/router';
   <div class="container-navegacion">
     <h1><a class="container-logo" href=""><img class="logo" src="/navegacion/novedades/logo.png" alt="" priority="" ></a> </h1>
     <nav>
-    <li><a href="">DESARROLLO WEB</a></li>
+    <li><a href="/desarrollo-web">DESARROLLO WEB</a></li>
         <li><a href="">CREACIÓN DE CONTENIDO</a></li>
         <li><a href="#contenido">SOCIAL LISTENING</a></li>
         <li><a href="">REGULACION DE CONTENIDO</a></li>

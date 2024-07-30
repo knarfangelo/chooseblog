@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { SeoService } from '../../Seo.service';
 
 @Component({
   selector: 'app-la-ley-del-olvido-protege-tu-reputacion-con-choose',
@@ -74,4 +76,19 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     './la-ley-del-olvido-protege-tu-reputacion-con-choose.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LaLeyDelOlvidoProtegeTuReputacionConChooseComponent { }
+export class LaLeyDelOlvidoProtegeTuReputacionConChooseComponent { 
+
+  constructor(private title:Title, private seo:SeoService){
+
+  }
+  ngOnInit(): void {
+    let t:string = "El Origen De La Ley Del Olvido";
+    this.title.setTitle(t);
+
+    this.seo.generateTags({
+      title: t,
+      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
+      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+    });
+  }
+}
