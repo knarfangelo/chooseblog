@@ -22,7 +22,7 @@ import { RouterLink } from '@angular/router';
     <nav>
     <li><a href="articulo/desarrollo-web">DESARROLLO WEB</a></li>
       <li><a href="articulo/creacion-contenido">CREACIÓN DE CONTENIDO</a></li>
-      <li><a href="#contenido">SOCIAL LISTENING</a></li>
+      <li><a href="articulo/social-listening">SOCIAL LISTENING</a></li>
       <li><a href="">REGULACIÓN DE CONTENIDO</a></li>
       <li><a href="#autor">ENVÍOS MASIVOS</a></li>
     </nav>

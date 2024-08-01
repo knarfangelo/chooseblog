@@ -14,6 +14,11 @@ import { Articulo2Component } from '../components/desarrollo-web/articulo-2/arti
 import { Articulo3Component } from '../components/desarrollo-web/articulo-3/articulo-3.component';
 import { CreacionContenidoComponent } from '../components/creacion-contenido/creacion-contenido.component';
 import { CreacionContenidoArticulo1Component } from '../components/creacion-contenido/creacion-contenido-articulo-1/creacion-contenido-articulo-1.component';
+import { CreacionContenidoArticulo3Component } from '../components/creacion-contenido/creacion-contenido-articulo-3/creacion-contenido-articulo-3.component';
+import { CreacionContenidoArticulo2Component } from '../components/creacion-contenido/creacion-contenido-articulo-2/creacion-contenido-articulo-2.component';
+import { SocialListeningComponent } from '../components/social-listening/social-listening.component';
+import { SocialListeningArticulo1Component } from '../components/social-listening/social-listening-articulo-1/social-listening-articulo-1.component';
+import { SocialListeningArticulo2Component } from '../components/social-listening/social-listening-articulo-2/social-listening-articulo-2.component';
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
@@ -30,5 +35,10 @@ export const routes: Routes = [
     {  path: 'articulo/desarrollo-web/importancia-de-la-inteligencia-artificial-en-el-desarrollo-de-paginas-webs-modernas', component: Articulo2Component },
     {  path: 'articulo/desarrollo-web/maximizando-el-potencial-beneficio-de-un-correcto-seo', component: Articulo3Component },
     {  path: 'articulo/creacion-contenido', component: CreacionContenidoComponent },
+    {  path: 'articulo/social-listening', component: SocialListeningComponent },
+    {  path: 'articulo/social-listening/dominando-el-futuro-digital-estrategias-clave-para-el-exito-en-el-mundo-online', component: SocialListeningArticulo1Component },
+    {  path: 'articulo/social-listening/neuromarketing-descifrando-el-poder-del-cerebro-en-las-estrategias-de-marketing', component: SocialListeningArticulo2Component },
     {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },
+    {  path: 'articulo/creacion-contenido/importancia-de-las-keywords-en-los-articulos', component: CreacionContenidoArticulo2Component },
+    {  path: 'articulo/creacion-contenido/importancia-estrategica-de-una-agencia-digital-en-la-era-digital', component: CreacionContenidoArticulo3Component },
 ];

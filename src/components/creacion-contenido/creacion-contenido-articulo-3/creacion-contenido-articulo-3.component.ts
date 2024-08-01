@@ -12,7 +12,7 @@ import { SeoService } from '../../Seo.service';
   template: `
       <header>
     <div class="container-encabezado">
-      <img src="/articulos/2-Casos-de-Éxito-El-Impacto-de-un-Buen-Manejo-de-Redes-Sociales.jpg" alt="" />
+      <img src="/articulos/8-La-Importancia-Estratégica-de-una-Agencia-Digital-en-la-Era-Digital.jpg" alt="" />
       <h2>La Importancia Estratégica de una Agencia Digital en la Era Digital</h2>
       <h4>Por choose / Agosto 1, 2024</h4>
     </div>  
