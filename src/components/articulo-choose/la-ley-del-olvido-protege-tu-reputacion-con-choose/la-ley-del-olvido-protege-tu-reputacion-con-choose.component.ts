@@ -82,13 +82,13 @@ export class LaLeyDelOlvidoProtegeTuReputacionConChooseComponent {
 
   }
   ngOnInit(): void {
-    let t:string = "El Origen De La Ley Del Olvido";
+    let t:string = "la ley del olvido protege tu reputacion con choose";
     this.title.setTitle(t);
 
     this.seo.generateTags({
       title: t,
-      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
-      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+      description: "La justicia es uno de los valores que más tengo desarrollados, por lo que en Choose, como Google Partners, tenemos la capacidad de usar herramientas avanzadas y hacer análisis exhaustivos para proteger y mejorar tu presencia digital. Hoy vamos a contarte uno de nuestros servicios para mantener una imagen limpia y justa en Internet.",
+      slug: "articulo/la-ley-del-olvido-protege-tu-reputacion-con-choose"  
     });
   }
 }

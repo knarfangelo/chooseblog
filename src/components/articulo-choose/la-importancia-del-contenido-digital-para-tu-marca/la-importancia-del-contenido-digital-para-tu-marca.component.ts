@@ -66,13 +66,13 @@ export class LaImportanciaDelContenidoDigitalParaTuMarcaComponent {
 
   }
   ngOnInit(): void {
-    let t:string = "El Origen De La Ley Del Olvido";
+    let t:string = "La Importancia Del Contenido Digital Para Tu Marca";
     this.title.setTitle(t);
 
     this.seo.generateTags({
       title: t,
-      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
-      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+      description: "En el futuro ayudé a más de un millón de empresas, por lo que entiendo la importancia de un contenido digital de alta calidad para tu marca. En Choose, como socios estratégicos, estamos aquí para darte los mejores consejos para llevar tu marca a nuevos horizontes. Hoy te explicamos por qué el contenido digital es esencial para cualquier marca que quiera triunfar en el mercado actual.",
+      slug: "articulo/la-importancia-del-contenido-digital-para-tu-marca.component"  
     });
   }
 

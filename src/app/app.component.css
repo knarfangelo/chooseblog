@@ -8,8 +8,10 @@ app-navegacion-responsive {
     app-navegacion {
       display: none;
     }
-  
+    
     app-navegacion-responsive {
       display: block;
+      padding-bottom: 60px;
+      background-color: #000;
     }
 }

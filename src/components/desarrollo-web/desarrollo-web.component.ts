@@ -34,4 +34,7 @@ import { Articulo1Component } from "./articulo-1/articulo-1.component";
   styleUrl: './desarrollo-web.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class DesarrolloWebComponent { }
+export class DesarrolloWebComponent { 
+
+  
+}

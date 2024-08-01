@@ -17,7 +17,7 @@ import { CreacionContenidoArticulo1Component } from '../components/creacion-cont
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
-    {  path: 'desarrollo-web', component: DesarrolloWebComponent },
+    {  path: 'articulo/desarrollo-web', component: DesarrolloWebComponent },
     {  path: 'articulo/el-origen-de-la-ley-del-olvido', component: ElOrigenDeLaLeyDelOlvidoComponent },
     {  path: 'article/:id', component: ContenidoComponent },
     {  path: 'articulo/la-ley-del-olvido-protege-tu-reputacion-con-choose', component: LaLeyDelOlvidoProtegeTuReputacionConChooseComponent },
@@ -29,6 +29,6 @@ export const routes: Routes = [
     {  path: 'articulo/desarrollo-web/importancia-del-uso-de-una-pagina-web-en-la-era-digital', component: Articulo1Component },
     {  path: 'articulo/desarrollo-web/importancia-de-la-inteligencia-artificial-en-el-desarrollo-de-paginas-webs-modernas', component: Articulo2Component },
     {  path: 'articulo/desarrollo-web/maximizando-el-potencial-beneficio-de-un-correcto-seo', component: Articulo3Component },
-    {  path: 'creacion-contenido', component: CreacionContenidoComponent },
+    {  path: 'articulo/creacion-contenido', component: CreacionContenidoComponent },
     {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },
 ];

@@ -48,13 +48,13 @@ export class SocialListeningEstarPasoAdelanteCompetidoresComponent {
 
   }
   ngOnInit(): void {
-    let t:string = "El Origen De La Ley Del Olvido";
+    let t:string = "Social Listening: estar un paso delante de tus competidores";
     this.title.setTitle(t);
 
     this.seo.generateTags({
       title: t,
-      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
-      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+      description: "En Choose, tu agencia digital de confianza, estamos siempre un paso adelante en la adopción de tecnologías y estrategias innovadoras. En esta ocasión, quiero hablarte de una herramienta que está revolucionando la manera en que las marcas entienden y se relacionan con su audiencia: el social listening. Prepárate para descubrir cómo este servicio puede transformar tu estrategia de marketing y llevar la imagen de tu marca al siguiente nivel.",
+      slug: "articulo/social-listening-estar-paso-adelante-competidores"  
     });
   }
 }

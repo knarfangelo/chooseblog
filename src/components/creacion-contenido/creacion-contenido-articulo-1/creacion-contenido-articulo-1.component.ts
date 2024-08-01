@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { SeoService } from '../../Seo.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-creacion-contenido-articulo-1',
@@ -33,4 +35,19 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './creacion-contenido-articulo-1.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CreacionContenidoArticulo1Component { }
+export class CreacionContenidoArticulo1Component { 
+
+  constructor(private title:Title, private seo:SeoService){
+
+  }
+  ngOnInit(): void {
+    let t:string = "Casos de Éxito: El Impacto de un Buen Manejo de Redes Sociales";
+    this.title.setTitle(t);
+    this.seo.generateTags({
+      title: t,
+      description: "En la era digital, el manejo efectivo de redes sociales se ha convertido en un factor determinante para el éxito de muchas empresas y personalidades públicas. Este artículo explora varios casos emblemáticos donde el uso estratégico y creativo de plataformas sociales ha llevado a resultados excepcionales, demostrando el poder transformador de una sólida presencia en redes sociales.",
+      slug: "articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales",
+      keywords: "era digital,  Redes Sociales, empresas, personalidades, públicas, estratégico, creativo, plataformas, sociales,  resultados, excepcionales, poder, transformador, de, una, sólida, presencia, en, redes, sociales, conexión, emocional, campañas, visuales,  compartir, experiencias, experiencia, del, cliente, experiencia, del, cliente, Interacción, visibilidad,  usuarios, marketing, boca, a, boca, diferenciar, activismo, social, plataformas, sociales",
+    });
+  }
+ }

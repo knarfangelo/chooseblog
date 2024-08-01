@@ -85,13 +85,13 @@ export class PotenciaTuTransformacionDigitalComponent {
 
   }
   ngOnInit(): void {
-    let t:string = "El Origen De La Ley Del Olvido";
+    let t:string = "Potencia Tu Transformación Digital";
     this.title.setTitle(t);
 
     this.seo.generateTags({
       title: t,
-      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
-      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+      description: "Desde el futuro, he adoptado las herramientas más modernas, para traerlas a ti. En Choose, seremos tus socios en este viaje hacia una transformación digital efectiva. El día de hoy te daremos las herramientas de desarrollo web que están rompiendo la industria y acelerando los procesos como nunca antes. Prepárate para optimizar tu flujo de trabajo y llevar tu desarrollo web al siguiente nivel.",
+      slug: "articulo/potencia-tu-transformacion-digital"  
     });
   }
  }

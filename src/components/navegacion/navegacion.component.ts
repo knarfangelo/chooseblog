@@ -18,13 +18,13 @@ import { RouterLink } from '@angular/router';
   ],
   template: `
   <div class="container-navegacion">
-    <h1><a class="container-logo" href=""><img class="logo" src="/navegacion/novedades/logo.png" alt="" priority="" ></a> </h1>
+    <h1><a class="container-logo" href="https://chooseagencia.com/"><img class="logo" src="/navegacion/novedades/logo.png" alt="" priority="" ></a> </h1>
     <nav>
-    <li><a href="/desarrollo-web">DESARROLLO WEB</a></li>
-        <li><a href="/creacion-contenido">CREACIÓN DE CONTENIDO</a></li>
-        <li><a href="#contenido">SOCIAL LISTENING</a></li>
-        <li><a href="">REGULACION DE CONTENIDO</a></li>
-        <li><a href="#autor">ENVIOS MASIVOS</a></li>
+    <li><a href="articulo/desarrollo-web">DESARROLLO WEB</a></li>
+      <li><a href="articulo/creacion-contenido">CREACIÓN DE CONTENIDO</a></li>
+      <li><a href="#contenido">SOCIAL LISTENING</a></li>
+      <li><a href="">REGULACIÓN DE CONTENIDO</a></li>
+      <li><a href="#autor">ENVÍOS MASIVOS</a></li>
     </nav>
     <div class="container-novedades">
       <p class="titulo-novedades">Novedades</p>

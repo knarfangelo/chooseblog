@@ -18,8 +18,7 @@ import { WhatsappComponent } from "../whatsapp/whatsapp.component";
     WhatsappComponent
 ],
   template: `
-       <app-panel-principal></app-panel-principal>
-      
+       <app-panel-principal></app-panel-principal>   
   `,
   styleUrl: './blog-choose.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

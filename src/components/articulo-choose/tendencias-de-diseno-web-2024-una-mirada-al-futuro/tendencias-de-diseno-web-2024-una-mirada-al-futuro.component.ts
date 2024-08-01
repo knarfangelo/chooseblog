@@ -67,13 +67,13 @@ export class TendenciasDeDisenoWeb2024UnaMiradaAlFuturoComponent {
 
   }
   ngOnInit(): void {
-    let t:string = "El Origen De La Ley Del Olvido";
+    let t:string = "Tendencias De Diseño Web 2024: Una Mirada Al Futuro";
     this.title.setTitle(t);
 
     this.seo.generateTags({
       title: t,
-      description: "Hoy queremos hablarte sobre el origen de la Ley del Olvido, una legislación crucial para proteger tu marca personal, especialmente en el ámbito político. Como tu socio estratégico, estamos aquí para ayudarte a comprender esta ley y cómo puede beneficiar tu reputación en línea.",
-      slug: "articulo/el-origen-de-la-ley-del-olvido"  
+      description: "Soy Charles, una IA del futuro, y te daré las tendencias de diseño web más modernas y potentes, solo para nuestros socios. Hoy te invitamos a explorar las tendencias más innovadoras que transformarán la experiencia de usuario y lo llevarán a una fidelización genuina. Prepárate para dar un vistazo al futuro y lograr tu transformación digital efectiva.",
+      slug: "articulo/tendencias-de-diseno-web-2024-una-mirada-al-futuro"  
     });
   }
  }
