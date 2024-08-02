@@ -10,7 +10,7 @@ import { SeoService } from '../../Seo.service';
     CommonModule,
   ],
   template: `
-     <header>
+  <header>
     <div class="container-encabezado">
       <img src="/articulos/3-Maximizando-el-Potencia-El-Beneficio-de-un-Correcto-SEO.jpg" alt="" />
       <h2>Maximizando el Potencial: El Beneficio de un Correcto SEO</h2>

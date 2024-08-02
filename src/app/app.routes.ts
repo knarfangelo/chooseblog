@@ -19,6 +19,10 @@ import { CreacionContenidoArticulo2Component } from '../components/creacion-cont
 import { SocialListeningComponent } from '../components/social-listening/social-listening.component';
 import { SocialListeningArticulo1Component } from '../components/social-listening/social-listening-articulo-1/social-listening-articulo-1.component';
 import { SocialListeningArticulo2Component } from '../components/social-listening/social-listening-articulo-2/social-listening-articulo-2.component';
+import { RegulacionContenidoComponent } from '../components/regulacion-contenido/regulacion-contenido.component';
+import { EnviosMasivosComponent } from '../components/envios-masivos/envios-masivos.component';
+import { RegulacionContenidoArticulo1Component } from '../components/regulacion-contenido/regulacion-contenido-articulo-1/regulacion-contenido-articulo-1.component';
+import { EnviosMasivosArticulo1Component } from '../components/envios-masivos/envios-masivos-articulo-1/envios-masivos-articulo-1.component';
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
@@ -36,6 +40,10 @@ export const routes: Routes = [
     {  path: 'articulo/desarrollo-web/maximizando-el-potencial-beneficio-de-un-correcto-seo', component: Articulo3Component },
     {  path: 'articulo/creacion-contenido', component: CreacionContenidoComponent },
     {  path: 'articulo/social-listening', component: SocialListeningComponent },
+    {  path: 'articulo/regulacion-contenido', component: RegulacionContenidoComponent },
+    {  path: 'articulo/envios-masivos', component: EnviosMasivosComponent },
+    {  path: 'articulo/regulacion-contenido/gestion-de-crisis-de-marca-estrategias-cruciales-para-proteger-y-restaurar-la-reputacion', component: RegulacionContenidoArticulo1Component },
+    {  path: 'articulo/envios-masivos/beneficios-de-realizar-una-campaña-con-el-metodo-de-envios-masivos-digitales', component: EnviosMasivosArticulo1Component },
     {  path: 'articulo/social-listening/dominando-el-futuro-digital-estrategias-clave-para-el-exito-en-el-mundo-online', component: SocialListeningArticulo1Component },
     {  path: 'articulo/social-listening/neuromarketing-descifrando-el-poder-del-cerebro-en-las-estrategias-de-marketing', component: SocialListeningArticulo2Component },
     {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },

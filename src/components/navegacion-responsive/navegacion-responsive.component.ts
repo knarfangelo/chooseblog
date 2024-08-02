@@ -16,11 +16,11 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
     </div>  </header>
     <nav class="button-nav" [class.open]="isOpen">
       <ul>
-        <li><a href="/desarrollo-web">DESARROLLO WEB</a></li>
-        <li><a href="/creacion-contenido">CREACIÓN DE CONTENIDO</a></li>
-        <li><a href="#contenido">SOCIAL LISTENING</a></li>
-        <li><a href="">REGULACION DE CONTENIDO</a></li>
-        <li><a href="#autor">ENVIOS MASIVOS</a></li>
+        <li><a href="articulo/desarrollo-web">DESARROLLO WEB</a></li>
+        <li><a href="articulo/creacion-contenido">CREACIÓN DE CONTENIDO</a></li>
+        <li><a href="articulo/social-listening">SOCIAL LISTENING</a></li>
+        <li><a href="articulo/regulacion-contenido">REGULACIÓN DE CONTENIDO</a></li>
+        <li><a href="articulo/envios-masivos">ENVÍOS MASIVOS</a></li>
       </ul>
     </nav>
   `,
