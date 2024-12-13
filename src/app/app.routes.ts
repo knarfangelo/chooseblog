@@ -23,6 +23,9 @@ import { RegulacionContenidoComponent } from '../components/regulacion-contenido
 import { EnviosMasivosComponent } from '../components/envios-masivos/envios-masivos.component';
 import { RegulacionContenidoArticulo1Component } from '../components/regulacion-contenido/regulacion-contenido-articulo-1/regulacion-contenido-articulo-1.component';
 import { EnviosMasivosArticulo1Component } from '../components/envios-masivos/envios-masivos-articulo-1/envios-masivos-articulo-1.component';
+import { Articulo4Component } from '../components/desarrollo-web/articulo-4/articulo-4.component';
+import { Articulo5Component } from '../components/desarrollo-web/articulo-5/articulo-5.component';
+import { Articulo6Component } from '../components/desarrollo-web/articulo-6/articulo-6.component';
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
@@ -49,4 +52,7 @@ export const routes: Routes = [
     {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },
     {  path: 'articulo/creacion-contenido/importancia-de-las-keywords-en-los-articulos', component: CreacionContenidoArticulo2Component },
     {  path: 'articulo/creacion-contenido/importancia-estrategica-de-una-agencia-digital-en-la-era-digital', component: CreacionContenidoArticulo3Component },
+    {  path: 'articulo/desarrollo-web/meta-enfrenta-caida-global-en-sus-plataformas', component: Articulo4Component},
+    {  path: 'articulo/desarrollo-web/chatgpt-sufre-caida', component: Articulo5Component},
+    {  path: 'articulo/desarrollo-web/apple-actualizacion-phone-ipad', component: Articulo6Component}
 ];

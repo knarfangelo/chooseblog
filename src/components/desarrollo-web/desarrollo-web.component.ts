@@ -29,6 +29,24 @@ import { Articulo1Component } from "./articulo-1/articulo-1.component";
       <p>Maximizando el Potencial: El Beneficio de un Correcto SEO</p>
       </a>
     </div>
+    <div class="web"><a href="articulo/desarrollo-web/meta-enfrenta-caida-global-en-sus-plataformas">
+      <div class="background"></div>
+    <img src="articulos/meta.jpg" alt="">
+      <p>Meta enfrenta caída global en sus plataformas: WhatsApp, Facebook e Instagram</p>
+      </a>
+    </div>
+    <div class="web"><a href="articulo/desarrollo-web/chatgpt-sufre-caida">
+      <div class="background"></div>
+    <img src="articulos/chatgpt.png" alt="">
+      <p>ChatGPT sufre una caída global, dejando a millones sin acceso a la herramienta</p>
+      </a>
+    </div>
+    <div class="web"><a href="articulo/desarrollo-web/apple-actualizacion-phone-ipad">
+      <div class="background"></div>
+    <img src="articulos/apple.png" alt="">
+      <p>Apple anuncia nueva actualización para iPhone y iPad</p>
+      </a>
+    </div>
   </header>
   `,
   styleUrl: './desarrollo-web.component.css',
