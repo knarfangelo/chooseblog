@@ -18,9 +18,13 @@ Según DownDetector, los principales problemas incluyen el envío y recepción d
 En redes sociales como X, los usuarios no tardaron en comentar la situación, destacándose el humor habitual con memes que aligeran el impacto de estas caídas. Un comentario recurrente señala cómo los usuarios acuden a X cada vez que WhatsApp deja de funcionar.</p>
     </main>
   </header>
-  
   `,
   styleUrl: './articulo-4.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Articulo4Component { }
+export class Articulo4Component {
+
+  
+
+
+}

@@ -26,6 +26,7 @@ import { EnviosMasivosArticulo1Component } from '../components/envios-masivos/en
 import { Articulo4Component } from '../components/desarrollo-web/articulo-4/articulo-4.component';
 import { Articulo5Component } from '../components/desarrollo-web/articulo-5/articulo-5.component';
 import { Articulo6Component } from '../components/desarrollo-web/articulo-6/articulo-6.component';
+import { CreacionContenidoArticulo4Component } from '../components/creacion-contenido/creacion-contenido-articulo-4/creacion-contenido-articulo-4.component';
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
@@ -52,6 +53,7 @@ export const routes: Routes = [
     {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },
     {  path: 'articulo/creacion-contenido/importancia-de-las-keywords-en-los-articulos', component: CreacionContenidoArticulo2Component },
     {  path: 'articulo/creacion-contenido/importancia-estrategica-de-una-agencia-digital-en-la-era-digital', component: CreacionContenidoArticulo3Component },
+    {  path: 'articulo/creacion-contenido/la-champions-league', component: CreacionContenidoArticulo4Component },
     {  path: 'articulo/desarrollo-web/meta-enfrenta-caida-global-en-sus-plataformas', component: Articulo4Component},
     {  path: 'articulo/desarrollo-web/chatgpt-sufre-caida', component: Articulo5Component},
     {  path: 'articulo/desarrollo-web/apple-actualizacion-phone-ipad', component: Articulo6Component}

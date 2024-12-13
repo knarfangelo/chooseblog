@@ -7,7 +7,6 @@ import { Articulo1Component } from "./articulo-1/articulo-1.component";
   standalone: true,
   imports: [
     CommonModule,
-    Articulo1Component
 ],
   template: `
   <header>

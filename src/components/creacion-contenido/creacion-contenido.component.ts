@@ -27,6 +27,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <p>La Importancia Estratégica de una Agencia Digital en la Era Digital</p>
       </a>  
     </div>
+    <div class="web"><a href="articulo/creacion-contenido/la-champions-league">
+      <div class="background"></div>
+    <img src="articulos/champions.png" alt="importancia estrategica">
+      <p>La Champions League: El tema más buscado esta semana</p>
+      </a>  
+    </div>
   </header>
   `,
   styleUrl: './creacion-contenido.component.css',
