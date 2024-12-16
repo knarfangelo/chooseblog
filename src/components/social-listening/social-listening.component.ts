@@ -22,6 +22,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <p>Neuromarketing: Descifrando el Poder del Cerebro en las Estrategias de Marketing</p>
       </a>
     </div>
+    <div class="web"><a href="articulo/social-listening/product-placement">
+      <div class="background"></div>
+    <img src="/articulos/product-placement.webp" alt="">
+      <p>¿Cuántas Veces Has Caído en las Redes del Product Placement?</p>
+      </a>
+    </div>
   </header>
 
   `,

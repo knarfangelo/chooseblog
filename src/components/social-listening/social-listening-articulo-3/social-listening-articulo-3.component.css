@@ -1,7 +1,7 @@
 main{
   max-width: 1000px;
   margin: auto;
-  min-height: auto ;
+  min-height: 100vh ;
   background-color: rgba(255, 255, 255, 0.99);
   box-sizing: border-box;
   padding: 30px;

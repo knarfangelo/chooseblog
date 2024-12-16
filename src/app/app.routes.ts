@@ -27,6 +27,7 @@ import { Articulo4Component } from '../components/desarrollo-web/articulo-4/arti
 import { Articulo5Component } from '../components/desarrollo-web/articulo-5/articulo-5.component';
 import { Articulo6Component } from '../components/desarrollo-web/articulo-6/articulo-6.component';
 import { CreacionContenidoArticulo4Component } from '../components/creacion-contenido/creacion-contenido-articulo-4/creacion-contenido-articulo-4.component';
+import { SocialListeningArticulo3Component } from '../components/social-listening/social-listening-articulo-3/social-listening-articulo-3.component';
 
 export const routes: Routes = [
     {  path: '', component: BlogChooseComponent },
@@ -50,6 +51,7 @@ export const routes: Routes = [
     {  path: 'articulo/envios-masivos/beneficios-de-realizar-una-campaña-con-el-metodo-de-envios-masivos-digitales', component: EnviosMasivosArticulo1Component },
     {  path: 'articulo/social-listening/dominando-el-futuro-digital-estrategias-clave-para-el-exito-en-el-mundo-online', component: SocialListeningArticulo1Component },
     {  path: 'articulo/social-listening/neuromarketing-descifrando-el-poder-del-cerebro-en-las-estrategias-de-marketing', component: SocialListeningArticulo2Component },
+    {  path: 'articulo/social-listening/product-placement', component: SocialListeningArticulo3Component },
     {  path: 'articulo/creacion-contenido/casos-de-exito-el-impacto-de-un-buen-manejo-de-redes-sociales', component: CreacionContenidoArticulo1Component },
     {  path: 'articulo/creacion-contenido/importancia-de-las-keywords-en-los-articulos', component: CreacionContenidoArticulo2Component },
     {  path: 'articulo/creacion-contenido/importancia-estrategica-de-una-agencia-digital-en-la-era-digital', component: CreacionContenidoArticulo3Component },
